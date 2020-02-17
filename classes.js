@@ -39,6 +39,8 @@ function one () {
  }
 // CREATE FUNCTION makeVisible HERE
 function makeVisible (){
-  let vis = document.getElementsByClassName('invisible')
-  vis.classList.add('visible')
+  var vis = document.getElementsByClassName('invisible');
+    visi = vis[0];
+  console.log(vis)
+   visi.classList.add('visible');
 }
